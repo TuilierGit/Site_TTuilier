@@ -1,0 +1,89 @@
+$color-theme-1-text: #99d6f1;
+$color-theme-1-dark: #3d4144;
+$color-theme-1-light: white;
+
+$color-text: $color-theme-1-text;
+$color-dark: $color-theme-1-dark;
+$color-light: $color-theme-1-light;
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  background-color: $color-dark;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-left: 1em;
+  font-size: 3.5em;
+  color: $color-text;
+  font-family: "Montserrat", sans-serif;
+}
+
+.portrait-ttuilier {
+  width: 25em;
+  height: auto;
+}
+
+.Presentation {
+  align-items: center;
+
+  div {
+    margin-top: 35px;
+    margin-bottom: 15px;
+
+    h2 {
+      font-size: 2.5em;
+      color: $color-text;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    p {
+      font-size: 1em;
+      color: $color-light;
+      font-family: "Montserrat", sans-serif;
+    }
+    img {
+      display: none;
+    }
+  }
+}
+
+.left {
+  padding: 5em;
+  size: 1em;
+  // background-color: blue;
+}
+
+.right {
+  // background-color: red;
+}
+
+header {
+  background-color: $color-light;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+    li {
+      // background-color: $color-dark;
+      // color: $color-text;
+      color: black;
+      padding: 1em;
+      border-radius: 1em;
+
+      &:hover {
+        background-color: lightgray;
+      }
+    }
+  }
+}
