@@ -1,6 +1,6 @@
 $color-theme-1-text: #99d6f1;
 $color-theme-1-dark: #3d4144;
-$color-theme-1-light: white;
+$color-theme-1-light: #fff;
 
 $color-text: $color-theme-1-text;
 $color-dark: $color-theme-1-dark;
@@ -31,24 +31,51 @@ h1 {
 
 .Presentation {
   align-items: center;
+  .Presentation-intern {
+    // background-color: #fff;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    align-items: center;
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
 
-  div {
-    margin-top: 35px;
-    margin-bottom: 15px;
+    div {
+      margin-top: 35px;
+      margin-bottom: 15px;
 
-    h2 {
-      font-size: 2.5em;
-      color: $color-text;
-      font-family: "Montserrat", sans-serif;
-    }
+      h2 {
+        font-size: 2.5em;
+        color: $color-text;
+        font-family: "Montserrat", sans-serif;
+      }
 
-    p {
-      font-size: 1em;
-      color: $color-light;
-      font-family: "Montserrat", sans-serif;
-    }
-    img {
-      display: none;
+      p {
+        font-size: 1em;
+        color: $color-light;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      div {
+        align-items: flex-start;
+        .CVbutton {
+          width: 5em;
+          text-align: center;
+          background-color: $color-text;
+          padding-left: 1em;
+          padding-right: 1em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          border-radius: 2em;
+          a {
+            color: black;
+          }
+          &:hover {
+            background-color: rgb(255, 255, 255);
+          }
+        }
+      }
     }
   }
 }
@@ -59,30 +86,67 @@ h1 {
   // background-color: blue;
 }
 
-.right {
-  // background-color: red;
-}
-
 header {
   background-color: $color-light;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
 
-  ul {
+  .Header-intern {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
 
-    li {
-      // background-color: $color-dark;
-      // color: $color-text;
-      color: black;
-      padding: 1em;
-      border-radius: 1em;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style: none;
 
-      &:hover {
-        background-color: lightgray;
+      li {
+        // background-color: $color-dark;
+        // color: $color-text;
+        color: black;
+        padding: 1em;
+        border-radius: 1em;
+
+        &:hover {
+          background-color: lightgray;
+        }
+      }
+    }
+  }
+}
+
+.text {
+  color: #fff;
+}
+
+.Skills-top {
+  text-align: center;
+  color: $color-text;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+  }
+}
+
+.Skill-bottom {
+  .Skill-bottom__grid {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    // background-color: cadetblue;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    div {
+      margin-left: 2em;
+      margin-right: 2em;
+      // background-color: #fff;
+      p {
+        color: #fff;
       }
     }
   }

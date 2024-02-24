@@ -1,14 +1,14 @@
 import React from "react";
-import CVbutton from "../components/CVbutton";
 import Navigation from "../components/Navigation";
 import Presentation from "../components/Presentation";
+import Skills from "../components/Skills";
 
 const Home = () => {
   return (
     <div>
       <Navigation />
       <Presentation />
-      <CVbutton />
+      <Skills />
     </div>
   );
 };

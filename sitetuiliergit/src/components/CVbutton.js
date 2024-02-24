@@ -2,7 +2,7 @@ import React from "react";
 
 const CVbutton = () => {
   return (
-    <div>
+    <div className="CVbutton">
       <a
         href="./publicAssets/CV_Tuilier_Thomas.pdf"
         target="_blank"
