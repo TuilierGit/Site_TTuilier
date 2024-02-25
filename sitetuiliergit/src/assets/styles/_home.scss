@@ -1,0 +1,49 @@
+$color-theme-1-text: #99d6f1;
+$color-theme-1-dark: #3d4144;
+$color-theme-1-light: #fff;
+
+$color-text: $color-theme-1-text;
+$color-dark: $color-theme-1-dark;
+$color-light: $color-theme-1-light;
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 1em;
+  background-color: $color-dark;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-left: 1em;
+  font-size: 3.5em;
+  color: $color-text;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: $color-text;
+}
+
+h3 {
+  color: $color-text;
+}
+
+.text {
+  color: #fff;
+}
+
+.content {
+  padding-top: 5.7em;
+}
+
+// div {
+//   display: none;
+// }

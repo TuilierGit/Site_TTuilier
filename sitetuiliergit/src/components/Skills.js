@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div>
+    <div className="part-skills">
       <div className="Skills-top">
         <div>
           <p>
@@ -15,62 +15,63 @@ const Skills = () => {
             Discover below how I can help you.
           </p>
         </div>
-        <div className="Skill-bottom">
-          <div className="Skill-bottom__grid">
-            <div>
-              <h3>Talent 1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                vero impedit facere possimus voluptatem voluptate mollitia
-                ducimus qui aliquid quas, nobis dicta dolor debitis ipsa totam
-                molestias illum, placeat sequi!
-              </p>
-            </div>
-            <div>
-              <h3>Talent 1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                vero impedit facere possimus voluptatem voluptate mollitia
-                ducimus qui aliquid quas, nobis dicta dolor debitis ipsa totam
-                molestias illum, placeat sequi!
-              </p>
-            </div>
-            <div>
-              <h3>Talent 1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                vero impedit facere possimus voluptatem voluptate mollitia
-                ducimus qui aliquid quas, nobis dicta dolor debitis ipsa totam
-                molestias illum, placeat sequi!
-              </p>
-            </div>
-            <div>
-              <h3>Talent 1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                vero impedit facere possimus voluptatem voluptate mollitia
-                ducimus qui aliquid quas, nobis dicta dolor debitis ipsa totam
-                molestias illum, placeat sequi!
-              </p>
-            </div>
-            <div>
-              <h3>Talent 1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                vero impedit facere possimus voluptatem voluptate mollitia
-                ducimus qui aliquid quas, nobis dicta dolor debitis ipsa totam
-                molestias illum, placeat sequi!
-              </p>
-            </div>
-            <div>
-              <h3>Talent 1</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                vero impedit facere possimus voluptatem voluptate mollitia
-                ducimus qui aliquid quas, nobis dicta dolor debitis ipsa totam
-                molestias illum, placeat sequi!
-              </p>
-            </div>
+      </div>
+
+      <div className="Skill-bottom">
+        <div className="Skill-bottom__grid">
+          <div>
+            <h3>Talent 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              vero impedit facere possimus voluptatem voluptate mollitia ducimus
+              qui aliquid quas, nobis dicta dolor debitis ipsa totam molestias
+              illum, placeat sequi!
+            </p>
+          </div>
+          <div>
+            <h3>Talent 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              vero impedit facere possimus voluptatem voluptate mollitia ducimus
+              qui aliquid quas, nobis dicta dolor debitis ipsa totam molestias
+              illum, placeat sequi!
+            </p>
+          </div>
+          <div>
+            <h3>Talent 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              vero impedit facere possimus voluptatem voluptate mollitia ducimus
+              qui aliquid quas, nobis dicta dolor debitis ipsa totam molestias
+              illum, placeat sequi!
+            </p>
+          </div>
+          <div>
+            <h3>Talent 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              vero impedit facere possimus voluptatem voluptate mollitia ducimus
+              qui aliquid quas, nobis dicta dolor debitis ipsa totam molestias
+              illum, placeat sequi!
+            </p>
+          </div>
+          <div>
+            <h3>Talent 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              vero impedit facere possimus voluptatem voluptate mollitia ducimus
+              qui aliquid quas, nobis dicta dolor debitis ipsa totam molestias
+              illum, placeat sequi!
+            </p>
+          </div>
+          <div>
+            <h3>Talent 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              vero impedit facere possimus voluptatem voluptate mollitia ducimus
+              qui aliquid quas, nobis dicta dolor debitis ipsa totam molestias
+              illum, placeat sequi!
+            </p>
           </div>
         </div>
       </div>

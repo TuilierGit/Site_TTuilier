@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <header>
       <div className="Header-intern">
-        <p>TuilierGit</p>
+        <p>Tuilier Thomas</p>
         <ul>
           <NavLink
             to="/"
@@ -19,18 +19,19 @@ const Navigation = () => {
           >
             <li>Projects</li>
           </NavLink>
-          <NavLink
-            to="/contact"
-            className={(nav) => (nav.isActive ? "nav-active" : "")}
-          >
-            <li>Contact</li>
-          </NavLink>
 
           <NavLink
             to="/about"
             className={(nav) => (nav.isActive ? "nav-active" : "")}
           >
             <li>About</li>
+          </NavLink>
+
+          <NavLink
+            to="/contact"
+            className={(nav) => (nav.isActive ? "nav-active" : "")}
+          >
+            <li className="black-navlink">Contact</li>
           </NavLink>
         </ul>
       </div>

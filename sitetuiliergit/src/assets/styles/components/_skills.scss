@@ -1,0 +1,37 @@
+.part-skills {
+  padding-top: 2em;
+  background-color: $color-dark;
+  padding-bottom: 1em;
+}
+
+.Skills-top {
+  text-align: center;
+  // background-color: aliceblue;
+  color: $color-text;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+  }
+}
+
+.Skill-bottom {
+  // background-color: red;
+  .Skill-bottom__grid {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+    display: grid;
+    // background-color: cadetblue;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    div {
+      margin-left: 2em;
+      margin-right: 2em;
+      // background-color: #fff;
+      p {
+        color: #fff;
+      }
+    }
+  }
+}
