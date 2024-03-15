@@ -3,7 +3,9 @@ import React from "react";
 const ProjectsTitle = () => {
   return (
     <div className="projectsTitle">
-      <h1>Projects</h1>
+      <div className="projectsTitle-container">
+        <h1>Projects</h1>
+      </div>
     </div>
   );
 };

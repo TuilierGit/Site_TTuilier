@@ -10,11 +10,10 @@ const Projects = () => {
         <ProjectsTitle />
         <div className="projects-content">
           <h2>My current project</h2>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+
+          <div className="project-1">
+            <h3>Space Finance</h3>
+          </div>
         </div>
       </div>
     </div>

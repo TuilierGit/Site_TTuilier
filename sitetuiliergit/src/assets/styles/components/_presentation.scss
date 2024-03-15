@@ -3,8 +3,79 @@
   height: auto;
 }
 
+.presentation {
+  background: url("../../img/fondPresentation.jpg") center/cover;
+  background-attachment: fixed;
+  padding: 40px;
+  // max-height: 500px;
+
+  .presentation-container {
+    margin: 0;
+    background-color: #3d4144ae;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 25px;
+    justify-content: center;
+    margin: 0 auto;
+
+    .presentation-container-left {
+      display: grid;
+      justify-items: center;
+      justify-content: center;
+      margin: 0;
+      align-content: center;
+
+      h2 {
+        font-size: 3rem;
+        padding: 10px 0 10px 0;
+        // margin: 0 0 0 30px;
+      }
+      p {
+        color: white;
+      }
+
+      div {
+        margin: 20px 0 0 0;
+        .CVbutton {
+          width: 5em;
+          text-align: center;
+          background-color: $color-text;
+
+          padding-left: 1em;
+          padding-right: 1em;
+          padding-top: 1em;
+          padding-bottom: 1em;
+          border-radius: 2em;
+        }
+
+        .CVbutton:hover {
+          background-color: darkblue;
+          transition-duration: 2s;
+          color: white;
+        }
+      }
+    }
+
+    h2::selection {
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+
+    p::selection {
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+    }
+
+    .presentation-container-right {
+      img {
+        border-radius: 20%;
+        margin: 10px 0 10px 0;
+      }
+    }
+  }
+}
+
 .Presentation {
-  background-image: url("../../img/fondPresentation.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

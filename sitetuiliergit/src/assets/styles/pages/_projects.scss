@@ -1,10 +1,19 @@
 .projectsTitle {
   margin-top: 0;
   background-image: url("../../img/fondProjects.jpg");
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 35em;
   padding: 1em;
   // margin-bottom: 5em;
+
+  .projectsTitle-container {
+    background: rgba(0, 0, 0, 0.461);
+    width: 25%;
+    padding: 20px 20px 6px;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+  }
 }
